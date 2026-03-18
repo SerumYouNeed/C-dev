@@ -18,5 +18,11 @@ int main()
     int sum;
     sum = integer + integer2;
     printf("%d\n", sum);
-    return 0;
+
+
+    int test;
+    int *testptr;
+    testptr = &test;
+
+    test = 255;
 }
