@@ -3,26 +3,16 @@
 int main()
 {
     int integer;
-    float ulamek;
+    int integer2;
+    float float2;
     char napis[] = "To jest napis";
 
-    printf("To jest liczba: %d\n", integer);
-    printf("To jest ułamek: %f\n", ulamek);
-    printf("To jest ułamek z dokładnością: %.2f\n", ulamek);
-    printf("To jest napis: %s\n", napis);
+    printf("Podaj liczbe calkowita: \n");
+    scanf(" %d", &integer);
 
-
-    integer = 5;
-    integer = integer + 10;
-    int integer2 = 4;
-    int sum;
-    sum = integer + integer2;
-    printf("%d\n", sum);
-
-
-    int test;
-    int *testptr;
-    testptr = &test;
-
-    test = 255;
+    printf("podaj kolejną: \n");
+    scanf(" %d", &integer2);
+    
+    float wynik = integer / integer2;
+    printf("wynik: %f\n", wynik);
 }
