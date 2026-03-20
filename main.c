@@ -10,8 +10,6 @@ int main()
     printf("Podaj liczbe calkowita: \n");
     scanf(" %d", &integer);
 
-    printf("podaj kolejną: \n");
-    scanf(" %d", &integer2);
     
     float wynik = integer / integer2;
     printf("wynik: %f\n", wynik);
